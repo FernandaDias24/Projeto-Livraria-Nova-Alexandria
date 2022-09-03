@@ -18,3 +18,24 @@ class Livro{
         }
     }
 }
+
+constructor( editora, titulo, autor, genero, ISBN )
+{
+    this.editora   = editora
+    this.titulo    = titulo
+    this.autor     = autor
+    this.genero    = genero
+    this.isbn      = ISBN
+    this.id        = Livro.proximoID++
+}
+
+dados()
+{
+    return {
+        "editora": this.editora,
+        "titulo": this.titulo,
+        "autor": this.autor,
+        "genero": this.genero,
+        "ISBN": this.ISBN,
+    }
+}
