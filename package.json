@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "static": "^2.0.0"
+  },
+  "name": "nova-alenxandria",
+  "description": "Primeira vez executando o projeto\r Instalar as execur :\r     npm install;\r     npm install express;\r     npm install static - Está dando falha...",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
